@@ -1,12 +1,12 @@
 body {
-  background-color: rgb(255, 253, 251);
+  background-color: rgb(253, 223, 192);
 }
 
 h1 {
   font-size: 45px;
   letter-spacing: 5px;
 
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 70px;
   position: relative;
 }
@@ -17,8 +17,9 @@ h1::before {
   bottom: -10px; /*adjust distance of underline from text*/
   left: 50%;
   width: 100px; /*adjust lenght of line*/
-  border-bottom: 3px solid #000;
+  border-bottom: 3px solid rgb(167, 85, 4);
   transform: translateX(-50%);
+  color: rgb(167, 85, 4);
 }
 
 .review {
@@ -26,12 +27,54 @@ h1::before {
   flex-direction: column;
   text-align: center;
   max-width: 800px;
-  margin: 0px;
-  padding: 0px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.arrows {
+  margin-bottom: 15px;
+}
+
+.arrows button {
+  background-color: transparent;
+  color: rgb(235, 188, 138);
+  border: none;
+  font-size: x-large;
+}
+
+.arrows button:hover {
+  color: rgb(167, 85, 4);
+  font-weight: bolder;
+}
+
+.random-btn {
+  margin-bottom: 15px;
+  border-radius: 12px;
+  padding: 10px;
+  color: rgb(167, 85, 4);
+  background-color: rgb(237, 223, 210);
+
+  border: 2px solid rgb(167, 85, 4);
+  box-shadow: none;
+}
+
+.random-btn:hover {
+  color: black;
+  background-color: rgb(167, 85, 4);
+}
+
+.review-content {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 2%;
+}
+
+img {
+  border-radius: 50%;
+  width: 25%;
+  box-shadow: 15px 0px 0px rgb(167, 85, 4);
 }
