@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  max-width: 800px;
+  max-width: 800px; /* setting the size of review container*/
 }
 
 .review-content {
@@ -47,7 +47,7 @@ h1::before {
   position: relative;
 }
 
-#img-1 {
+#img-person {
   border-radius: 100%;
   width: 25%;
   box-shadow: 15px 0px 0px rgb(209, 132, 55);
@@ -63,13 +63,14 @@ h1::before {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 10%;
-  left: 37%;
+  top: 10%; /*setting stylized qoutation mark whwere needed*/
+  left: 37%; /*setting stylized qoutation mark whwere needed*/
 }
 
 .profession {
   color: rgb(209, 132, 55);
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 .name {
@@ -92,7 +93,7 @@ h1::before {
 }
 
 .arrows button {
-  background-color: transparent;
+  background-color: transparent; /*to remove the default grey background*/
   color: rgb(176, 130, 81);
   border: none;
   font-size: x-large;
@@ -109,7 +110,6 @@ h1::before {
   padding: 10px;
   color: rgb(167, 85, 4);
   background-color: rgb(215, 191, 167);
-
   border: 2px solid rgb(209, 132, 55);
   box-shadow: none;
 }
