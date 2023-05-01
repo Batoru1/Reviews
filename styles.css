@@ -67,13 +67,7 @@ h1::before {
   left: 37%; /*setting stylized qoutation mark whwere needed*/
 }
 
-.profession {
-  color: rgb(209, 132, 55);
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-.name {
+#name {
   text-transform: capitalize;
   letter-spacing: 5px;
   font-weight: 600;
@@ -82,7 +76,13 @@ h1::before {
   margin-top: 20px;
 }
 
-.ipsumTxt {
+#profession {
+  color: rgb(209, 132, 55);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#ipsumTxt {
   color: rgb(76, 57, 9);
   font-size: larger;
   line-height: 1.3;
