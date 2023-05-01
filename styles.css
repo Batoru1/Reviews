@@ -118,3 +118,18 @@ h1::before {
   color: black;
   background-color: rgb(209, 132, 55);
 }
+
+@media screen and (min-width: 768px) {
+  .review-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* Styles for screens less than 768px wide (i.e. smartphones) */
+@media screen and (max-width: 767px) {
+  .review-container {
+    display: block;
+  }
+}
